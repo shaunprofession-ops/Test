@@ -1,0 +1,2 @@
+change management proceeds: we are implementing security testing for CR and all CR should be selected based on checklist. once checklist recived we can select the CR based on parameter to select the CR eligiable for security testing.
+we need checklist based on which we can select which change request will be consider for security testing.
