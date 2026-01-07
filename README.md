@@ -26,3 +26,39 @@ Valid Bonds Found (Issued before 1993)
  FOUND: 1750902 - Issue Date: 1992-08
  FOUND: 1751056 - Issue Date: 1990-10
  FOUND: 1751057 - Issue Date: 1990-10
+
+
+ FOUND: 434977 - Issue Date: 1986-05
+ FOUND: 434978 - Issue Date: 1986-05
+ FOUND: 435159 - Issue Date: 1986-04
+ FOUND: 435160 - Issue Date: 1986-04
+ FOUND: 435218 - Issue Date: 1986-05
+ FOUND: 435463 - Issue Date: 1986-05
+ FOUND: 435464 - Issue Date: 1986-05
+ FOUND: 435465 - Issue Date: 1986-05
+ FOUND: 435466 - Issue Date: 1986-05
+ FOUND: 435467 - Issue Date: 1986-05
+ FOUND: 435468 - Issue Date: 1986-05
+ FOUND: 435779 - Issue Date: 1986-06
+ FOUND: 435830 - Issue Date: 1986-06
+ FOUND: 435881 - Issue Date: 1986-06
+ FOUND: 435975 - Issue Date: 1983-04
+ FOUND: 436021 - Issue Date: 1986-06
+ FOUND: 436185 - Issue Date: 1986-06
+ FOUND: 436379 - Issue Date: 1986-07
+ FOUND: 436834 - Issue Date: 1986-07
+ FOUND: 436872 - Issue Date: 1986-07
+ FOUND: 436873 - Issue Date: 1986-07
+ FOUND: 436943 - Issue Date: 1986-07
+ FOUND: 437034 - Issue Date: 1986-07
+ FOUND: 437035 - Issue Date: 1986-07
+ FOUND: 437110 - Issue Date: 1986-07
+
+
+ FOUND: 38409 - Issue Date: 1982-10
+ FOUND: 38701 - Issue Date: 1982-12
+ FOUND: 38702 - Issue Date: 1982-12
+ FOUND: 38730 - Issue Date: 1982-12
+ FOUND: 38895 - Issue Date: 1983-02
+ FOUND: 39045 - Issue Date: 1980-07
+ FOUND: 39046 - Issue Date: 1980-07
