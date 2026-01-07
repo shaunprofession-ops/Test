@@ -1,2 +1,28 @@
 # Test
 Test
+Valid Bonds Found (Issued before 1993)
+ FOUND: 1750310 - Issue Date: 1992-07
+ FOUND: 1750311 - Issue Date: 1992-07
+ FOUND: 1750312 - Issue Date: 1992-07
+ FOUND: 1750355 - Issue Date: 1992-07
+ FOUND: 1750356 - Issue Date: 1992-07
+ FOUND: 1750357 - Issue Date: 1992-07
+ FOUND: 1750469 - Issue Date: 1992-07
+ FOUND: 1750470 - Issue Date: 1992-07
+ FOUND: 1750471 - Issue Date: 1992-07
+ FOUND: 1750508 - Issue Date: 1992-07
+ FOUND: 1750721 - Issue Date: 1992-08
+ FOUND: 1750730 - Issue Date: 1992-08
+ FOUND: 1750760 - Issue Date: 1992-08
+ FOUND: 1750761 - Issue Date: 1992-08
+ FOUND: 1750786 - Issue Date: 1992-08
+ FOUND: 1750787 - Issue Date: 1992-08
+ FOUND: 1750798 - Issue Date: 1992-08
+ FOUND: 1750807 - Issue Date: 1992-08
+ FOUND: 1750857 - Issue Date: 1992-08
+ FOUND: 1750869 - Issue Date: 1992-08
+ FOUND: 1750900 - Issue Date: 1992-08
+ FOUND: 1750901 - Issue Date: 1992-08
+ FOUND: 1750902 - Issue Date: 1992-08
+ FOUND: 1751056 - Issue Date: 1990-10
+ FOUND: 1751057 - Issue Date: 1990-10
