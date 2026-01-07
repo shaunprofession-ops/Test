@@ -1,2 +1,56 @@
-change management proceeds: we are implementing security testing for CR and all CR should be selected based on checklist. once checklist recived we can select the CR based on parameter to select the CR eligiable for security testing.
-we need checklist based on which we can select which change request will be consider for security testing.
+Part 1: The Security Triage Checklist
+When a requester submits a Change Request (CR), they must answer the following "Yes/No" questions.
+
+Category A: Identity & Access Management (Highest Risk)
+Does this change modify authentication mechanisms (login, password reset, MFA, SSO)?
+Does this change alter authorization logic (user roles, permissions, access levels)?
+Does this change create or modify administrative/privileged accounts?
+Category B: Data Sensitivity & Privacy
+Does this change involve new collection, storage, or transmission of PII (Personally Identifiable Information), PHI (Health Info), or PCI (Credit Card data)?
+Does this change alter how data is encrypted (at rest or in transit) or key management?
+Does this change modify database schemas or SQL queries related to sensitive data?
+Category C: Network & Infrastructure
+Does this change require opening new firewall ports or modifying network ACLs (Access Control Lists)?
+Does this change make a previously internal service publicly accessible via the internet?
+Does this change involve a new server, container, or cloud resource provisioning?
+Category D: Interfaces & Integrations
+Does this change introduce new APIs or modify existing API endpoints?
+Does this change introduce a new third-party library, plugin, or vendor integration?
+Does this change involve file upload/download functionality?
+Part 2: Selection Logic ( The Decision Matrix)
+Once the checklist is received, you need an algorithm to select the CR. You can use either a Trigger-Based approach or a Scoring approach.
+
+Method 1: The "Critical Trigger" Approach (Simpler)
+Logic: If the answer to ANY question in the checklist is "YES", the CR is flagged for Security Testing.
+Result: High security assurance, but higher testing volume.
+Method 2: The Weighted Scoring Approach (Advanced)
+Assign points to the categories.
+
+Category A (Identity): 5 points per "Yes"
+Category B (Data): 4 points per "Yes"
+Category C (Network): 3 points per "Yes"
+Category D (Interfaces): 2 points per "Yes"
+Selection Thresholds:
+
+Score 0: No Security Testing required (Standard Approval).
+Score 1-4: Automated Scanning only (SAST/DAST tools).
+Score 5+: Manual Security Review / Penetration Testing required.
+Part 3: Selecting the Type of Security Testing
+Not all selected CRs require the same test. Based on the checklist answers, map the CR to the correct test type:
+
+Checklist Trigger	Recommended Security Test
+Code Changes / APIs	SAST (Static Code Analysis) + DAST (Dynamic Scans)
+Libraries / 3rd Party	SCA (Software Composition Analysis)
+Network / Ports / Server	Vulnerability Assessment (Nessus/Qualys scan)
+Auth / Encryption / PII	Manual Penetration Testing (PenTest)
+Part 4: Process Workflow Implementation
+To make this operational, define the workflow states:
+
+CR Creation: Requester fills out standard details.
+Security Checklist: Requester answers the 12 questions above (Mandatory).
+Automated Triage:
+If Checklist = All "No": Move to CAB (Change Advisory Board) / Peer Review.
+If Checklist = Any "Yes": Status changes to "Security Validation Required".
+Security Action: Security Team reviews the specific "Yes" answers.
+They assign the specific test (e.g., "Run a DAST scan on the new API").
+Gatekeeper: The CR cannot move to "Implementation" state until the Security Test results are attached and critical vulnerabilities are closed.
