@@ -44,3 +44,19 @@ Valid Bonds Found (Issued before 1995)
  FOUND: 3527410 - Issue Date: 1992-12
  FOUND: 3527411 - Issue Date: 1992-12
  FOUND: 3527428 - Issue Date: 1993-01
+  FOUND: 3525443 - Issue Date: 1993-01
+ FOUND: 3525444 - Issue Date: 1993-01
+ FOUND: 3525515 - Issue Date: 1993-01
+ FOUND: 3525578 - Issue Date: 1993-01
+ FOUND: 3525579 - Issue Date: 1993-01
+ FOUND: 3525580 - Issue Date: 1993-01
+ FOUND: 3525632 - Issue Date: 1992-12
+ FOUND: 3525633 - Issue Date: 1992-12
+ FOUND: 3525647 - Issue Date: 1993-01
+ FOUND: 3525649 - Issue Date: 1993-01
+ FOUND: 3525650 - Issue Date: 1993-01
+ FOUND: 3525652 - Issue Date: 1993-01
+ FOUND: 3525658 - Issue Date: 1993-01
+ FOUND: 3525659 - Issue Date: 1993-01
+ FOUND: 3525678 - Issue Date: 1992-12
+
